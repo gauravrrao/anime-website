@@ -1,0 +1,22 @@
+.container{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width: 15rem;
+    height: 20rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.image{
+    width: 14rem;
+    height: 16rem;
+    
+}
